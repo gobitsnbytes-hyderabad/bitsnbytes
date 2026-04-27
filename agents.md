@@ -59,6 +59,13 @@ Quick reference for “who to ping for what”.
 | **Maryam Fatima** | Social Media & Promotions Head | Impact Storytelling, Visual Design, Campaign Strategy |
 | **Sristhi Singh** | Operations & Communications Head | Process Optimization, Logistics, Internal Comms |
 
+### 3.3 Volunteers (Creatives, Tech, Outreach)
+
+Bits&Bytes is supported by a passionate volunteer network powering operations, branding, and technical workflows:
+- **Creatives:** Jaagruti, Kavan, Vareesha, Aishwary, and Shantanu Joshi
+- **Tech:** Hridyansh, Areeb, and Prakhar
+- **Outreach:** Adithya, Atharva, and Aanjaneya
+
 ---
 
 ## 3. Agent Profiles
@@ -107,10 +114,15 @@ Quick reference for “who to ping for what”.
 
 ## 4. Track Record
 
-- **Scrapyard Lucknow:** 80 registrations, 50 participants, 10k+ impressions. Executed in 13 days.
+- **Scrapyard Lucknow:** 40+ coders, designers, and filmmakers united for innovation. Executed in 13 days.
+- **India Innovates 2026:** Official Executive Partner for the World's Largest Civic Tech Hackathon with 1.26 crore+ applicants.
+- **Execron 1.0:** Co-hosted AI Hackathon & Workshop at IIT Kanpur for students in Classes 9–12.
+- **GitHub Copilot Dev Days:** Hosted community developer event focused on AI-assisted coding in Lucknow.
+- **Lucknow Build Guild:** Free hardware workshop and meetup for local tech enthusiasts.
 - **NASA Space Apps Challenge Lucknow:** 300+ participants.
 - **CodeDay Hackathons:** Across Lucknow, Delhi, and Dehradun.
-- **Web Presence:** gobitsnbytes.org serves thousands of monthly visitors with 1000+ active members.
+- **Web Presence:** gobitsnbytes.org serves thousands of monthly visitors with 1,500+ active members and 130+ shipped projects.
+- **Evaluation Throughput:** 2,700+ project submissions evaluated during intensive 3-day sprints.
 
 ---
 
