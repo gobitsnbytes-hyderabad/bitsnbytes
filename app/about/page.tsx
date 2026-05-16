@@ -49,7 +49,7 @@ const aboutContent = {
 const coreTeam: CoreTeamMember[] = [
   {
     id: 1,
-    name: "SHREETHAN KAGITHA",
+    name: "Yash Singh",
     role: "Co-Founder & Organisation Lead",
     image: "/team/shree.jpeg",
     mobileImagePosition: "center 18%",
@@ -69,6 +69,7 @@ const coreTeam: CoreTeamMember[] = [
     accentColor: "var(--brand-purple)", // Deep Purple
     isFounder: true,
   },
+
   {
     id: 2,
     name: "Aadrika Maurya",
