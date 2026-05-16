@@ -17,35 +17,35 @@ const testimonials = [
       "I didn't expect a student club to feel this real. We're not pretending to build things. We actually are.",
     author: "SHREETHAN KAGITHA",
     role: "Co-Founder & Organisation Lead",
-    company: "Bits&Bytes",
+    company: "Bits&Bytes HYD",
   },
   {
     quote:
       "The brand isn't decoration. It's how we show people that teens can set the standard, not just follow it.",
     author: "Aadrika",
     role: "Co-Founder & Chief Creative Strategist",
-    company: "Bits&Bytes",
+    company: "Bits&Bytes HYD",
   },
   {
     quote:
       "If the site goes down, 1500 people notice. That's why I care about infrastructure that actually holds up, not just looks good in a demo.",
     author: "Akshat Kushwaha",
     role: "Co-Founder & Technical Lead",
-    company: "Bits&Bytes",
+    company: "Bits&Bytes HYD",
   },
   {
     quote:
       "Backend work isn't glamorous but it's what makes everything else possible. If the database dies, the hackathon dies.",
     author: "Devansh",
     role: "Founding Member & Backend Lead",
-    company: "Bits&Bytes",
+    company: "Bits&Bytes HYD",
   },
   {
     quote:
       "I post because I want other teens to see this and think, 'Wait, I could do that too.' That's the whole point.",
     author: "Maryam",
     role: "Social Media & Promotions Head",
-    company: "Bits&Bytes",
+    company: "Bits&Bytes HYD",
   },
 ];
 

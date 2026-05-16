@@ -63,13 +63,20 @@ export const HeroFuturistic = () => {
               <div className="space-y-6">
                 <h1
                   id="home-hero-title"
-                  className="font-display text-2xl font-extrabold leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl tracking-tighter drop-shadow-2xl"
+                  className="font-display text-3xl font-extrabold leading-tight text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-tighter drop-shadow-2xl"
                 >
                   India&apos;s boldest <br className="hidden sm:block" />
-                  builders club
+                  builders club{" "}
+                  <span className="inline-flex items-center justify-center rounded-xl sm:rounded-2xl border border-(--brand-pink)/50 bg-(--brand-pink)/20 px-3 sm:px-4 py-1 sm:py-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-(--brand-pink) backdrop-blur-md shadow-[0_0_30px_rgba(228,90,146,0.5)] transform -translate-y-1 sm:-translate-y-2 ml-1 sm:ml-2">
+                    HYD
+                  </span>
                 </h1>
-                <p className="text-xs sm:text-sm md:text-base font-black uppercase tracking-[0.25em] sm:tracking-[0.35em] text-(--brand-pink)">
-                  innovate. collaborate. hack.
+                <p className="flex items-center gap-2 sm:gap-3 text-xs sm:text-sm md:text-base font-black uppercase tracking-[0.2em] sm:tracking-[0.35em] text-(--brand-pink)">
+                  <span className="relative flex h-3 w-3 sm:h-4 sm:w-4">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-(--brand-pink) opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-3 w-3 sm:h-4 sm:w-4 bg-(--brand-pink)"></span>
+                  </span>
+                  HYDERABAD • innovate. collaborate. hack.
                 </p>
                 <p className="text-sm text-white/80 sm:text-base md:text-lg lg:text-xl max-w-2xl leading-relaxed">
                   Hackathons, dev squads, and launches. Fully student-led, fully
