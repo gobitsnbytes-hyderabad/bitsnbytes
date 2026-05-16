@@ -45,7 +45,7 @@ export const HeroFuturistic = () => {
     >
       <WebGLShader />
 
-      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col gap-4 sm:gap-6 md:gap-8 lg:gap-12 px-4 pb-8 pt-20 sm:px-6 sm:pb-10 sm:pt-20 md:px-6 md:pb-16 md:pt-24 lg:pb-20 lg:pt-28 lg:flex-row lg:items-stretch lg:gap-16 box-border">
+      <div className="relative z-10 mx-auto flex w-full max-w-4xl flex-col gap-4 sm:gap-6 md:gap-8 lg:gap-12 px-4 pb-8 pt-20 sm:px-6 sm:pb-10 sm:pt-20 md:px-6 md:pb-16 md:pt-24 lg:pb-20 lg:pt-28 box-border">
         {/* Left content card */}
         <div className="flex-1 min-w-0">
           <GlassContainer
@@ -135,99 +135,6 @@ export const HeroFuturistic = () => {
           </GlassContainer>
         </div>
 
-        {/* Right — Event Slideshow */}
-        <Link
-          href={heroEvents[activeSlide].href}
-          className="relative flex-1 min-w-0 block group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30 rounded-[1.75rem]"
-          aria-label={`View details for ${heroEvents[activeSlide].title}`}
-        >
-          <GlassContainer
-            className="h-full aspect-[3/4] sm:aspect-[4/5] lg:aspect-auto transition-transform duration-500 group-hover:scale-[1.02]"
-            containerClassName="h-full"
-            glowColor="pink"
-          >
-            <div className="relative h-full w-full overflow-hidden">
-              {heroEvents.map((event, idx) => (
-                <div
-                  key={event.title}
-                  className={`absolute inset-0 bg-[#0a0a0d] transition-opacity duration-700 ease ${idx === activeSlide ? "opacity-100 z-10" : "opacity-0 z-0"}`}
-                >
-                  <Image
-                    src={event.image}
-                    alt={event.alt}
-                    fill
-                    sizes="(max-width: 639px) 0px, (max-width: 1023px) 100vw, 42vw"
-                    className={`hidden sm:block object-cover transition-transform transition-colors transition-opacity duration-700 ${idx === 0 ? "object-center scale-[1.05]" : "object-center"}`}
-                    priority={idx === 0}
-                  />
-                  <Image
-                    src={event.imageMobile ?? event.image}
-                    alt={event.alt}
-                    fill
-                    sizes="100vw"
-                    className={`block sm:hidden object-cover transition-transform transition-colors transition-opacity duration-700 ${idx === 0 ? "object-center scale-[1.02]" : "object-center"}`}
-                    priority={idx === 0}
-                  />
-                </div>
-              ))}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-black/20 z-20" />
-
-              <div className="absolute bottom-8 left-8 right-8 space-y-2 z-30">
-                <span
-                  className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[0.65rem] font-bold uppercase tracking-widest ${
-                    heroEvents[activeSlide].status === "upcoming"
-                      ? "bg-emerald-500/10 border border-emerald-500/30 text-emerald-400"
-                      : heroEvents[activeSlide].status === "closed"
-                        ? "bg-amber-500/10 border border-amber-500/30 text-amber-300"
-                        : "bg-white/10 border border-white/20 text-white/80"
-                  }`}
-                >
-                  <span
-                    className={`h-1.5 w-1.5 rounded-full ${
-                      heroEvents[activeSlide].status === "upcoming"
-                        ? "bg-emerald-500 animate-pulse"
-                        : heroEvents[activeSlide].status === "closed"
-                          ? "bg-amber-300"
-                          : "bg-white/70"
-                    }`}
-                  />
-                  {heroEvents[activeSlide].badge}
-                </span>
-                <div>
-                  <h3 className="font-display text-2xl font-black text-white flex items-center gap-2">
-                    {heroEvents[activeSlide].title}
-                    <ArrowRight className="h-4 w-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                  </h3>
-                  <p className="text-white/60 text-sm font-medium mt-1">
-                    {heroEvents[activeSlide].subtitle}
-                  </p>
-                </div>
-
-                {/* Dot indicators */}
-                <div
-                  className="flex items-center gap-2 pt-2"
-                  role="tablist"
-                  aria-label="Hero event slides"
-                >
-                  {heroEvents.map((_, idx) => (
-                    <button
-                      key={idx}
-                      type="button"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        setActiveSlide(idx);
-                      }}
-                      className={`h-1.5 rounded-full transition-transform transition-colors transition-opacity duration-300 ${idx === activeSlide ? "w-6 bg-(--brand-pink)" : "w-1.5 bg-white/30 hover:bg-white/50"}`}
-                      aria-label={`Go to slide ${idx + 1}`}
-                      aria-current={idx === activeSlide}
-                    />
-                  ))}
-                </div>
-              </div>
-            </div>
-          </GlassContainer>
-        </Link>
       </div>
     </section>
   );
