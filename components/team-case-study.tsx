@@ -265,41 +265,7 @@ export default function TeamCaseStudy({ coreTeam, volunteers }: TeamCaseStudyPro
         })}
       </div>
 
-      {/* Divider */}
-      <div className="relative flex items-center justify-center py-4">
-        <div className="absolute inset-0 flex items-center">
-          <div className="w-full border-t border-white/10" />
-        </div>
-        <div className="relative bg-background px-4 sm:px-6">
-          <span className="text-xs sm:text-sm font-medium uppercase tracking-widest text-[var(--brand-pink)]/70">
-            Contributors
-          </span>
-        </div>
-      </div>
 
-      {/* Volunteers Section - Grouped by function */}
-      <div className="flex flex-col gap-8 sm:gap-10">
-        {sectionOrder.map((section) => {
-          const sectionVolunteers = volunteers.filter(
-            (volunteer) => volunteer.section === section,
-          );
-
-          if (sectionVolunteers.length === 0) return null;
-
-          return (
-            <section key={section} className="space-y-4 sm:space-y-5">
-              <h3 className="text-center text-sm sm:text-base font-bold uppercase tracking-[0.2em] text-[var(--brand-pink)]/90">
-                {sectionLabels[section]}
-              </h3>
-              <div className="flex flex-wrap items-start justify-center gap-6 sm:gap-10 md:gap-14 lg:gap-16">
-                {sectionVolunteers.map((volunteer) => (
-                  <VolunteerCard key={volunteer.id} volunteer={volunteer} />
-                ))}
-              </div>
-            </section>
-          );
-        })}
-      </div>
     </div>
   );
 }

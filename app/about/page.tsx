@@ -91,7 +91,7 @@ export default function About() {
           eyebrow="About"
           title={aboutContent.title}
           description={aboutContent.description}
-          className="pt-24 md:pt-32"
+          className="pt-20 md:pt-24 pb-8 md:pb-12"
         >
           <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-2 lg:gap-4">
             {aboutContent.sections.map((section, index) => {
@@ -123,6 +123,7 @@ export default function About() {
           eyebrow="Team"
           title="Meet the Agents"
           description="Designers, engineers, club leads, and storytellers. The people behind everything."
+          className="pt-8 md:pt-12 pb-24 md:pb-32"
         >
           <Suspense fallback={<LoadingInline />}>
             <TeamCaseStudy coreTeam={coreTeam} volunteers={volunteers} />
