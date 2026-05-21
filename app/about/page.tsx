@@ -49,197 +49,38 @@ const aboutContent = {
 const coreTeam: CoreTeamMember[] = [
   {
     id: 1,
-    name: "Yash Singh",
-    role: "Co-Founder & Organisation Lead",
-    image: "/team/shree.jpeg",
+    name: "SHREETHAN KAGITHA",
+    role: "Fork Lead & Social Media",
+    image: "/team/shreethan.jpg",
     mobileImagePosition: "center 18%",
-    bio: "Builds things that matter: a VS Code extension with thousands of users, hackathons with 400+ participants. IOQM National Qualifier. Built AI projects including laser pushup detection systems and PDF scrapers. Organized Scrapyard LKO and GDS MUN. Teaches CS at STEMist Lucknow.",
+    bio: "Bio coming soon...",
     expertise: [
-      "Mathematics (IOQM)",
-      "Full-Stack Dev",
-      "Three.js / Three.js",
-      "AI / ML Scaling",
-      "GoDOT Game Dev",
+      "Leadership",
+      "Social Media Strategy",
     ],
-    socials: {
-      linkedin: "https://www.linkedin.com/in/yash-vardhan-singh-a41540270/",
-      github: "https://github.com/yashclouded",
-      website: "https://yashvibe.codes/",
-    },
+    socials: {},
     accentColor: "var(--brand-purple)", // Deep Purple
     isFounder: true,
   },
-
   {
     id: 2,
-    name: "Aadrika Maurya",
-    role: "Co-Founder & Chief Creative Strategist",
-    image: "/team/aadrika.png",
+    name: "MEGHANA PERADA",
+    role: "Tech Lead",
+    image: "/team/meghana.jpg",
     mobileImagePosition: "center 20%",
-    isFeatured: true,
-    bio: "RSI India Alumni who conducted neuroscience research on EEG signals and attention modeling, the kind of work most people don't touch until grad school. Owns the creative direction and the strategy for what the network becomes.",
+    bio: "Bio coming soon...",
     expertise: [
-      "Neuroscience (EEG)",
-      "Creative Strategy",
-      "Regional Management",
-      "Brand Development",
+      "Tech Leadership",
+      "Software Engineering",
     ],
-    socials: {
-      linkedin: "https://www.linkedin.com/in/aadrika-maurya/",
-      github: "https://github.com/Aadrika08",
-      website: "https://aadrikasportfolio.framer.website/",
-    },
+    socials: {},
     accentColor: "var(--brand-pink)", // Vibrant Pink
     isFounder: true,
-  },
-  {
-    id: 3,
-    name: "Akshat Kushwaha",
-    role: "Co-Founder & Technical Lead",
-    image: "/team/akshat.jpg",
-    mobileImagePosition: "center 16%",
-    mobileImageScale: 1.03,
-    bio: "AI-native systems engineer who asks what happens when software fails. Ex Jr. Research Engineer at jhana.ai at 17, where he built production AI systems including a Steno dictation plugin and AI-era IVRS. Builds retrieval architectures that survive real constraints. Owns the entire tech stack and anything that needs to work under pressure.",
-    expertise: [
-      "LLMOps / RAG",
-      "Agentic Frameworks",
-      "Next.js 16 / React 19",
-      "FastAPI / Python",
-      "System Design",
-    ],
-    socials: {
-      linkedin: "https://www.linkedin.com/in/akshat-singh-kushwaha/",
-      github: "https://github.com/a3ro-dev",
-      website: "https://a3ro.dev",
-    },
-    accentColor: "var(--brand-plum)", // Rich Plum
-    isFounder: true,
-  },
-  {
-    id: 4,
-    name: "Devaansh Pathak",
-    role: "Founding Member & Backend Lead",
-    image: "/team/devansh.jpeg",
-    mobileImagePosition: "center 18%",
-    bio: "Handles backend architecture and the economics of partnerships.",
-    expertise: [
-      "Backend Architecture",
-      "Database Systems",
-      "Partnership Building",
-      "Community Outreach",
-    ],
-    linkedin: "https://www.linkedin.com/in/devaanshpa/",
-  },
-  {
-    id: 5,
-    name: "Maryam Fatima",
-    role: "Social Media & Promotions Head",
-    image: "/team/maryam.jpeg",
-    mobileImagePosition: "center 22%",
-    bio: "Runs social strategy. 10k+ impressions on club events. Designs visual campaigns for independent hackathons.",
-    expertise: [
-      "Impact Storytelling",
-      "Visual Design",
-      "Campaign Planning",
-      "Brand Identity",
-    ],
-    linkedin: "https://www.linkedin.com/in/maryam-fatima-9719aa377/",
-  },
-  {
-    id: 6,
-    name: "Sristhi Singh",
-    role: "Operations & Communications Head",
-    image: "/team/srishti.jpeg",
-    mobileImagePosition: "center 16%",
-    bio: "Keeps 100+ members on the same page. Coordinates between design/dev squads and handles logistics for city-wide events.",
-    expertise: [
-      "Process Optimization",
-      "Resource Logistics",
-      "Team Communications",
-      "Project Coordination",
-    ],
-    linkedin: "https://www.linkedin.com/in/srishti-singh-ab6a1b391",
   },
 ];
 
 // Volunteers - smaller cards section
-const volunteers: Volunteer[] = [
-  {
-    id: 11,
-    name: "Jaagruti",
-    image: "/team/jaagruti.jpeg",
-    section: "Creatives",
-  },
-  {
-    id: 18,
-    name: "Kavan",
-    image: "/team/kavan.jpg",
-    section: "Creatives",
-  },
-  {
-    id: 16,
-    name: "Vareesha",
-    image: "/team/vareesha.jpg",
-    linkedin: "https://www.linkedin.com/in/vareesha-mehdi-a669203ab/",
-    section: "Creatives",
-  },
-  {
-    id: 13,
-    name: "Aishwary",
-    image: "/team/aishwary.jpeg",
-    linkedin: "https://www.linkedin.com/in/ashlovesnoodle",
-    section: "Creatives",
-  },
-  {
-    id: 5,
-    name: "Hridyansh",
-    image: "/team/hirdyansh.jpeg",
-    linkedin: "https://www.linkedin.com/in/hridyansh-bhardwaj-739470406/",
-    section: "Tech",
-  },
-  {
-    id: 7,
-    name: "Areeb",
-    image: "/team/areeb.png",
-    linkedin: "https://www.linkedin.com/in/areeb-ahmad-066547315/",
-    section: "Tech",
-  },
-  {
-    id: 15,
-    name: "Prakhar",
-    image: "/team/prakhar.png",
-    linkedin: "https://www.linkedin.com/in/prakharrdev/",
-    section: "Tech",
-  },
-  {
-    id: 14,
-    name: "Adithya",
-    image: "/team/adhitya.png", // Corrected image path and extension
-    linkedin: "https://www.linkedin.com/in/adithya---k/",
-    section: "Outreach",
-  },
-  {
-    id: 8,
-    name: "Atharva",
-    image: "/team/atharva.jpg",
-    linkedin: "https://www.linkedin.com/in/atharvaupadhyay/",
-    section: "Outreach",
-  },
-  {
-    id: 17,
-    name: "Aanjaneya",
-    image: "/team/aanjaneya.jpg",
-    linkedin: "https://www.linkedin.com/in/aanjaneya-tripathi-0700a4346/",
-    section: "Outreach",
-  },
-  {
-    id: 21,
-    name: "Shantanu Joshi",
-    image: "/team/shantanu.jpeg",
-    linkedin: "https://www.linkedin.com/in/theshantanujoshi/",
-    section: "Creatives",
-  },
-];
+const volunteers: Volunteer[] = [];
 
 export default function About() {
   return (
