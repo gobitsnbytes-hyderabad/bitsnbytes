@@ -13,7 +13,7 @@ import {
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
 
-import { HeroFuturistic } from "@/components/ui/hero-futuristic";
+import { HeroHyderabad } from "@/components/ui/hero-hyderabad";
 import { PageSection } from "@/components/page-section";
 import { Features } from "@/components/ui/features-8";
 import {
@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col w-full max-w-full overflow-x-hidden">
-        <HeroFuturistic />
+        <HeroHyderabad />
 
         <PageSection
           eyebrow="Impact"
