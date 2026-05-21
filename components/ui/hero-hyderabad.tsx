@@ -40,11 +40,6 @@ export const HeroHyderabad = () => {
             glowColor="pink"
           >
             <div className="flex flex-col items-center text-center h-full gap-6 sm:gap-8 md:gap-10">
-              {/* Location badge */}
-              <span className="inline-flex w-fit items-center gap-2 rounded-full border border-(--brand-pink)/30 bg-(--brand-pink)/10 px-3 py-1 sm:px-4 sm:py-1.5 text-[0.6rem] sm:text-[0.65rem] font-bold uppercase tracking-[0.25em] sm:tracking-[0.35em] text-white backdrop-blur-md shadow-[0_0_15px_rgba(228,90,146,0.3)]">
-                <MapPin className="h-3 w-3 text-(--brand-pink)" />
-                HYDERABAD HEADQUARTERS
-              </span>
 
               {/* Main content */}
               <div className="space-y-6 flex flex-col items-center">
