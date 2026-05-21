@@ -292,7 +292,7 @@ export function FlickeringFooter() {
   return (
     <footer
       id="footer"
-      className="relative w-full pb-0 mt-12 sm:mt-24 bg-[var(--brand-ink)] overflow-hidden"
+      className="relative w-full pb-0 bg-[var(--brand-ink)] overflow-hidden"
     >
       {/* Top Border Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[80%] h-[1px] bg-gradient-to-r from-transparent via-[var(--brand-pink)] to-transparent opacity-50"></div>
